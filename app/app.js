@@ -21,7 +21,22 @@ function changeRoute() {
   }
 }
 
-function initListeners() {}
+function initListeners() {
+  // Event Listeners for when modal is click
+  $("#home").on("click", function (e) {
+    $("#modal").toggle();
+  });
+  $(".close").on("click", function (e) {
+    $("#modal").toggle();
+    // $("#modal").hide();
+  });
+
+  // When Log in Button is clicked on
+  $("login").on("click", function (e) {
+    $("#modal").toggle();
+    // $("#modal").show();
+  });
+}
 
 function initSite() {
   $(window).on("hashchange", changeRoute);
