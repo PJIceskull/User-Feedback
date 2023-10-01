@@ -24,16 +24,16 @@ function changeRoute() {
 function initListeners() {
   // Event Listeners for when modal is click
   $("#home").on("click", function (e) {
-    $("#modal").toggle();
+    $("#modal").toggle(); // Close Modal
   });
   $(".close").on("click", function (e) {
-    $("#modal").toggle();
+    $("#modal").toggle(); // Close Modal
     // $("#modal").hide();
   });
 
   // When Log in Button is clicked on
-  $("login").on("click", function (e) {
-    $("#modal").toggle();
+  $(".login").on("click", function (e) {
+    $("#modal").toggle(); // Open Modal
     // $("#modal").show();
   });
 }
