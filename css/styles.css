@@ -70,5 +70,39 @@ nav .login:hover {
   top: 0;
   z-index: -1;
 }
+#modal .modal-content {
+  min-height: 300px;
+  min-width: 300px;
+  max-width: 70%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+}
+#modal .modal-content .close-button {
+  position: absolute;
+  color: #fff;
+  background-color: orangered;
+  right: 0;
+  padding: 10px;
+}
+#modal .modal-content .close-button:hover {
+  background-color: hsl(16, 100%, 30%);
+}
+#modal .modal-content .cancel-button {
+  background-color: hsl(240, 25%, 16%);
+  color: #fff;
+  height: 40px;
+  width: 75px;
+  font-size: 16px;
+  border-radius: 7px;
+  border-style: none;
+}
+#modal .modal-content .cancel-button:hover {
+  background-color: hsl(240, 25%, 48%);
+}
+#modal .close {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=styles.css.map */
