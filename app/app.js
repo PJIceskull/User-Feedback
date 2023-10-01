@@ -44,6 +44,9 @@ function initSite() {
 }
 
 $(document).ready(function () {
+  // Modal stays close at start
+  $("#modal").toggle(); // Close Modal
+  //   $("#modal").hide(); // hide Modal
   initListeners();
   initSite();
 });
