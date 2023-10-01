@@ -27,7 +27,7 @@ p {
 
 nav {
   height: 50px;
-  background-color: #000;
+  background-color: #222;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -35,6 +35,33 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
+}
+nav a:hover {
+  color: orangered;
+}
+nav .login {
+  border: 3px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #222;
+  height: 35px;
+  width: 75px;
+  cursor: pointer;
+}
+nav .login:hover {
+  border-color: orangered;
+  color: orangered;
+}
+
+#modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=styles.css.map */
