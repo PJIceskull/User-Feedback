@@ -1,7 +1,7 @@
 {
   "name": "homework-four",
   "version": "1.0.0",
-  "description": "",
+  "description": "The purpose to this project to help you understand user feedback.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
