@@ -80,11 +80,12 @@ nav .login:hover {
   position: relative;
 }
 #modal .modal-content .loginForm {
-  height: 200px;
+  height: 225px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 15px;
 }
 #modal .modal-content .loginForm input {
   height: 40px;
